@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: درباره
 permalink: /about/
 ---
 <h1>salam bache ahaa</h1>

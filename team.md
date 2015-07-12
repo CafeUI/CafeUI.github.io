@@ -1,6 +1,6 @@
 ---
 layout: page
-title: team
+title: تیم ما
 permalink: /team/
 ---
 <h1>salam bache ahaa</h1>
