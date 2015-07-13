@@ -7,6 +7,10 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: cafeui
 github_username:  cafeui
 
+permalink: /:categories/:title.html
+exclude: ["node_modules", "assets/scss", "assets/vendor", "gulpfile.js", "package.json", "bower.json", "LICENSE", "Gemfile", "Gemfile.lock"]
+
+
 # Build settings
 markdown: kramdown
 #gems:

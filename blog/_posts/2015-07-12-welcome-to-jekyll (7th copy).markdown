@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "سلام به کافه دیزاین خوش اومدین!"
-date:   2015-08-12 10:31:22
-categories: jekyll
+date:   2015-09-12 10:31:22
+categories: jekyll update
 img : /assets/img/cafeui.png
 author: محمد شریفی
 ---
