@@ -10,10 +10,10 @@ layout: default
     {% for post in site.posts  %}
       <div class="col col-3">
         {% if post.img %}
-        <img src="{{ post.img }}" class="post lazy" align="center" />
+        <img src="/assets/img/noimg.jpg" data-src="{{ post.img }}" class="post" align="center" />
         {% else %}
-        <img src="/assets/img/noimg.jpg"
-  class="post lazy" align="center" />
+        <img src="" data-src="/assets/img/noimg.jpg"
+  class="post" align="center" />
 	{% endif %}</p>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <span class="post-meta">// {{ post.author }}</span>
