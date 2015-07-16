@@ -43,6 +43,12 @@ $on-laptop:        800px;
         @content;
     }
 }
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
 
 
 
@@ -50,5 +56,8 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "_blog",
+        "_index",
+        "team"
 ;

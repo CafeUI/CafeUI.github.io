@@ -1,0 +1,26 @@
+$imgBackColor : rgba(0 , 0 , 0 , 0.1);
+$imgBoderRadius : 50%;
+$expadding :20px;
+
+.member-list{
+	li{
+		height: 320px;
+		list-style: none;
+	}
+	p.profile{
+		margin-top: 15px;
+	}
+}
+img.team{
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+    @include border-radius($imgBoderRadius);
+	padding: 3px;
+	border: 2px $imgBackColor  solid;
+	transition : .3s all ease-in-out;
+	&:hover{
+	    border: 2px solid	rgba(0 , 0 , 0 , 0.5);
+	}
+}
+
