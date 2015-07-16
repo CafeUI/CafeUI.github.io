@@ -1,0 +1,50 @@
+$font_color: #000;
+$background_mouseover_color: #5C5CE6;
+$font_mouseover_color: #fff;
+$background_click_color: #4B4BBA;
+/**
+ * btn
+ */
+.btn
+{
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height*1.2 ;
+    font-weight: 300;
+    color: $font_color;
+    text-align: center;
+    background: #6666FF;
+    white-space: normal;
+    width: 50%;
+    min-width: 150px;
+    height: auto;
+    border: 1px solid  $grey-color-light;
+    border-radius: 10px;
+}
+.btn:hover 
+{
+    background: $background_mouseover_color;
+    color: $font_mouseover_color;
+    border-radius: 20px;
+    width: 40%;
+}
+.btn:active {
+    background: $background_click_color;
+} 
+
+/**
+ * img
+ */
+.imgg
+{
+    height: auto;
+    width: auto;
+		@include border-radius(10%);
+}
+
+
+
+
+
+
+
