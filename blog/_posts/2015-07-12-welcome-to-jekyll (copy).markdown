@@ -4,22 +4,21 @@ title:  "س5412452!dd"
 date:   2015-10-12 10:31:22
 categories: jekyll
 img : /assets/img/cafeui.png
+img1 : /assets/img/1.jpg
+img2 : /assets/img/2.jpg
+img3 : /assets/img/4.jpg
 author: محمد شریفی
 ---
-kdfjdskjfadskfj
-منتشر شده در شماره دو ماهنامه سلام‌دنیا –ما می‌خواهیم طی این مقاله یک راه حل آسان ولی گیک‌پسند برای ساخت صفحات وب با محوریت گیت‌هاب یاد بگیریم و با حداقل هزینه بتوانیم به کمک امکانات موجود در اینترنت صفحات ایستا در وب تولید کنیم و آنها را به شکلی دلپذیر و مطمئن مدیریت و به روزرسانی کنیم. اگر شما هم مثل من عاشق گیت و گیت‌هاب هستید ادامه مطلب را از دست ندهید! توجه هم داشته باشید که این روش بیشتر مناسب صفحات شخصی و صفحاتی برای موضوعات خاص و پروژه‌هاست و شما نمی‌توانید به این روش یک فروشگاه الکترونیک یا یک برنامه پایگاه‌داده و مشابه آن بسازید.
-یه متن فارسی با واژه `_posts` است.
-<img src="{{ page.img }}" style="height:100%;width:auto;" align="center" />
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+<img src="{{ page.img2 }}" style="height:600px;width:auto;" align="center" />
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+در sass ما میتونیم متغیر تعریف کنیم. اطلاعاتی که قراره چندین بار در قسمت های مختلف یک فایل css نوشته بشه میتونه داخل یه متغیر نگه داری بشه و هروقت جایی قرار شد اون اطلاعات رو بنویسیم میتونیم به جاش اسم متغیر رو بنویسیم. به این ترتیب وقتی مقدار متغیری که تعریف کردیم رو تغییر بدیم، جاهایی که از این متغیر استفاده کردیم مقدارش تغییر میکنه. شما میتونید رنگ ها یا اسم فونت ها یا هر مقدار css که فکر میکنید دوباره قراره ازش استفاده کنید رو داخل متغیر ذخیره کنید. Sass از علامت $ برای ساخت متغیر استفاده میکنه.
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+<div class="col col-3">
+    <img src="{{ page.img1 }}" class="imgg"/>
+</div>
+<div class="col col-3">
+    <img src="{{ page.img2 }}" class="imgg"/>
+</div>
+<div class="col col-3">
+    <img src="{{ page.img3 }}" class="imgg"/>
+</div>
