@@ -2,6 +2,75 @@ $font_color: #000;
 $background_mouseover_color: #5C5CE6;
 $font_mouseover_color: #fff;
 $background_click_color: #4B4BBA;
+
+ 
+
+/*@font-face {
+ font-family: myFirstFont;
+ src: url(font-awesome.min.css);
+}
+.example {
+  font-family: "myFirstFont";
+  font-size: 10px;
+}
+
+.fa-twitter:before 
+{ 
+  content: “\f099”;
+}*/
+
+
+
+
+//-------------------
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../assets/font/fontawesome-webfont.eot?v=4.0.3');
+  src: url('../assets/font/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'),
+  url('../assets/font/fontawesome-webfont.woff?v=4.0.3') format('woff'),
+  url('../assets/font/fontawesome-webfont.ttf?v=4.0.3') format('truetype'),
+  url('../assets/font/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+#icn{font: 30px 'FontAwesome';}
+span {display: inline-block;padding: 20px}
+
+
+.fa-twitter-square:before
+{
+  content: "\f081";
+	color: #2caae1;
+}
+.fa-facebook-square:before
+{
+  content: "\f082";
+	color: #3B579D;
+}
+.fa-github-square:before
+{
+  content: "\f092";
+	color: #7A007A;
+}
+.fa-youtube-square:before
+{
+  content: "\f166";
+	color: #FF0000;
+}
+.fa-instagram:before
+{
+  content: "\f16d";
+	color: #A8594A;
+}
+.fa-linkedin-square:before
+{
+  content: "\f08c";
+	color: #007cbc;
+}
+
+//-------------------
+
 /**
  * btn
  */
