@@ -1,0 +1,146 @@
+
+@import "_css3-mixins";
+@include keyframes(background-links) {
+  0%{
+    background-color: white;
+  }
+  10% {
+    background-color: #c7c2c2;
+  }
+      100% {
+    background-color: #c7c2c2;
+  }
+}
+#intro-txt{
+     text-align: center;
+    margin: auto;
+    font-size: 27px;
+    color:white;
+    font-weight: 100;
+    //margin-top: 100px;
+    position: absolute;
+    top:500px;
+    right: 10px;
+    left: 10px;
+}
+#intro-link{
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    //margin-top: 30px;
+    top: 600px;
+    right: 10px;
+    left:10px;
+            a{
+                
+                font-size: 20px;
+                color:white;
+                &:hover{
+                 text-decoration: none;
+                    color: red;
+                }
+                
+            }
+}
+#team-meet-link{
+    text-align: center;
+    margin: auto;
+    
+    margin-top: 50px;
+    
+            a{
+                padding: 5px;
+                padding-right: 40px;
+                padding-left: 40px;
+                font-size: 20px;
+                color:#660c0f;
+                &:hover{
+                 text-decoration: none;
+                    @include animation(background-links 15s);
+                }
+                border: 2px solid #aa0f0f;
+                @include border-radius(25px);
+            }
+}
+#team-meet-header{
+    text-align: right;
+    font-size: 30px;
+    color: #343131;
+    margin-top: 110px;
+    padding-top: 8px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    
+}
+#team-meet-container{
+    text-align: right;
+    font-size: 22px;
+    color: #4c4848;
+    margin-top: 9px;
+    margin-right: 10px;
+    
+    
+}
+#team-meet-icon{
+    float: left;
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    margin-top: 55px;
+}
+#design-process-header{
+      text-align: right;
+    font-size: 30px;
+    color: #343131;
+    margin-top: 175px;
+    border-top: 1px solid #cabfbf;
+    padding-top: 90px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+#design-process-article{
+    text-align: right;
+    font-size: 20px;
+    color: #4c4848;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+       margin-left: 25px;
+}
+#bg-image{
+     width: 1600px;
+    height: 650px;
+    
+}
+.page-content{
+    padding: 0;
+}    
+#read-our-blog{
+    text-align: right;
+    font-size: 30px;
+    color: #343131;
+    margin-top: 150px;
+    border-top: 1px solid #cabfbf;
+    padding-top: 30px;
+    margin-right: 20px;
+    margin-left: 25px;
+}
+#read-our-blog-btn{
+        text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 30px;
+            a{
+                 padding: 5px;
+                padding-right: 40px;
+                padding-left: 40px;
+                font-size: 20px;
+                color:#660c0f;
+                &:hover{
+                 text-decoration: none;
+                    @include animation(background-links 15s );
+                }
+                     border: 2px solid #aa0f0f;
+                @include border-radius(25px);
+            }
+}    
