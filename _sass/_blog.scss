@@ -20,18 +20,17 @@ $background_click_color: #4B4BBA;
     height: auto;
     border: 1px solid  $grey-color-light;
     border-radius: 10px;
-}
-.btn:hover 
-{
+&:hover {
+
     background: $background_mouseover_color;
     color: $font_mouseover_color;
     border-radius: 20px;
-    width: 40%;
+    cursor: pointer;
 }
-.btn:active {
+&:active {
     background: $background_click_color;
 } 
-
+}
 /**
  * img
  */

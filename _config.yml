@@ -1,7 +1,7 @@
 # Site settings
 title: CafeUI - کافه یو آی
 email: mmdsharifi@yahoo.com
-description: > # ما یک گروه جوان و پرانرژی طراحی رابط کاربری هستیم که به صورت تیمی پروژه های طراحی را انجام می دهیم.
+descrip: ما یک تیم طراحی رابط کاربری وب هستیم.ما در اینجا دانسته هایمان را با شما به اشتراک می گذاریم و در صورت داشتن پروژه ای ما می توانیم شما را کمک کنیم :)
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: cafeui
