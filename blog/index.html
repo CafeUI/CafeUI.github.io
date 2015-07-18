@@ -21,7 +21,7 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h5>
         <p>
-	{{ post.content | strip_html | truncatewords:15 }}
+	{{ post.content | strip_html | truncatewords:20 }}
 	</p>
       </div>
     {% endfor %}
@@ -30,3 +30,15 @@ layout: default
     
 
 </div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'cafeui';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
