@@ -21,8 +21,8 @@ author: محمد شریفی
 ---
 layout: post
 title:  "عنوان دست خود را اینجا بنویسید"
-date:   2015-08-12 10:31:22 
-categories: jekyll
+date:   2015-07-18 05:31:22 
+categories: news
 img : /assets/img/cafeui.png
 author: نام خود را اینجا بنویسید
 ---
