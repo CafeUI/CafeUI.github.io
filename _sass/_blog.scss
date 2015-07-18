@@ -5,45 +5,40 @@ $background_click_color: #4B4BBA;
 /**
  * btn
  */
-.btn
+[class^='fa-']{font: 30px 'FontAwesome'; }
+//span {display: inline-block;padding: 20px}
+.centerize{text-align: center;}
+.fa-gplus-square:before{
+  content: "\f0d4";
+  color: #d34836;
+}
+.fa-twitter-square:before
 {
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height*1.2 ;
-    font-weight: 300;
-    color: $font_color;
-    text-align: center;
-    background: #6666FF;
-    white-space: normal;
-    width: 50%;
-    min-width: 150px;
-    height: auto;
-    border: 1px solid  $grey-color-light;
-    border-radius: 10px;
-&:hover {
-
-    background: $background_mouseover_color;
-    color: $font_mouseover_color;
-    border-radius: 20px;
-    cursor: pointer;
+  content: "\f081";
+	color: #2caae1;
 }
-&:active {
-    background: $background_click_color;
-} 
-}
-/**
- * img
- */
-.imgg
+.fa-facebook-square:before
 {
-    height: auto;
-    width: auto;
-		@include border-radius(10%);
+  content: "\f082";
+	color: #3B579D;
 }
-
-
-
-
-
-
-
+.fa-github-square:before
+{
+  content: "\f092";
+	color: #7A007A;
+}
+.fa-youtube-square:before
+{
+  content: "\f166";
+	color: #FF0000;
+}
+.fa-instagram:before
+{
+  content: "\f16d";
+	color: #A8594A;
+}
+.fa-linkedin-square:before
+{
+  content: "\f08c";
+  color: #007cbc;
+}
