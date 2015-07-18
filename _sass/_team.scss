@@ -20,7 +20,7 @@ img.team{
 	border: 2px $imgBackColor  solid;
 	transition : .3s all ease-in-out;
 	&:hover{
-	    border: 2px solid	rgba(0 , 0 , 0 , 0.5);
+	    border: 2px solid	darken($color: $brand-color, $amount: 1%);
 	}
 }
 

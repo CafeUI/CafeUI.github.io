@@ -1,25 +1,38 @@
 
 @import "_css3-mixins";
-@include keyframes(background-links) {
-  0%{
-    background-color: white;
-  }
-  10% {
-    background-color: #c7c2c2;
-  }
-      100% {
-    background-color: #c7c2c2;
-  }
+
+.bgimg__section{
+    background-image: url('../assets/img/wall.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 666px;
+    height: 100vh;
+    width: 100%;
 }
+#logo{
+    width: 5em;
+    height: 5em;
+}
+ @include media-query($on-palm) {
+     #team-meet-icon{
+         display: none;
+         visibility: hidden;
+     }
+     .bgimg__section{
+         background-position: center;
+     }
+ }
 #intro-txt{
      text-align: center;
     margin: auto;
     font-size: 27px;
-    color:white;
+    color:rgb(74, 67, 67);
+    background-color: rgba(253, 253, 253, 0.7);
     font-weight: 100;
-    //margin-top: 100px;
+    padding: 50px;
     position: absolute;
-    top:500px;
+    top:60%;
     right: 10px;
     left: 10px;
 }
@@ -42,29 +55,28 @@
                 
             }
 }
-#team-meet-link{
+.btn_lg{
     text-align: center;
-    margin: auto;
-    
-    margin-top: 50px;
-    
+     margin: 100px 0;
             a{
-                padding: 5px;
-                padding-right: 40px;
-                padding-left: 40px;
-                font-size: 20px;
-                color:#660c0f;
+                padding: 10px 20px;
+                font-size: 22px;
+                color:darken($color: $brand-color, $amount: 3%) ;
+                @include transition(.6s all);
                 &:hover{
-                 text-decoration: none;
-                    @include animation(background-links 15s);
+                 text-decoration: none;   
+                 background: lighten($color: $brand-color, $amount: 3%) ;
+                 color: #fff;
                 }
-                border: 2px solid #aa0f0f;
-                @include border-radius(25px);
+                border: 1px solid $brand-color;
+                @include border-radius(3px);
             }
+}
+#blog__section{
+    margin: 20px 0;
 }
 #team-meet-header{
     text-align: right;
-    font-size: 30px;
     color: #343131;
     margin-top: 110px;
     padding-top: 8px;
@@ -72,7 +84,7 @@
     margin-right: 15px;
     
 }
-#team-meet-container{
+.team-meet-container{
     text-align: right;
     font-size: 22px;
     color: #4c4848;
@@ -107,14 +119,6 @@
     margin-right: 20px;
        margin-left: 25px;
 }
-#bg-image{
-     width: 1600px;
-    height: 650px;
-    
-}
-.page-content{
-    padding: 0;
-}    
 #read-our-blog{
     text-align: right;
     font-size: 30px;

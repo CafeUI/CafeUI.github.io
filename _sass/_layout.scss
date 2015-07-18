@@ -2,14 +2,17 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 5px solid $brand-color;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-
+    padding-bottom: 5px;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
-
+a{
+    text-decoration: none;
+}
+.footer-col-wrapper
 .site-title {
     font-size: 26px;
     line-height: 56px;
@@ -34,14 +37,14 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
-
+        font-size: 20px;
         // Gaps between nav items, but not on the first one
             margin: 15px;
     }
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 9px;
+        top: 1.3em;
         left: 30px;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
@@ -166,10 +169,11 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 0 0;
 }
 
 .page-heading {
+    margin-top: $spacing-unit;
     font-size: 20px;
 }
 
